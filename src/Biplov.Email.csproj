@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>Biplov KC</Authors>
+	  <OutputType>Library</OutputType>
+	  <Title>Email</Title> 
+    <PackageId>Biplov.Email</PackageId>
+	  <PackageProjectUrl>https://github.com/biplovkc/email</PackageProjectUrl>
+	  <PackageTags>Biplov;BiplovKC;Email</PackageTags>
+	  <AssemblyName>Biplov.Email</AssemblyName>
+	  <RootNameSpace>Biplov.Email</RootNameSpace>
+	  <TargetFramework>net6.0</TargetFramework>
+	  <Description>Defines the contract for email services</Description>
+	  <LangVersion>latest</LangVersion>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.Github" Version="1.1.1" PrivateAsserts="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="OneOf" Version="3.0.223" />
+  </ItemGroup>
+
+</Project>
