@@ -12,6 +12,7 @@
 	  <TargetFramework>net6.0</TargetFramework>
 	  <Description>Defines the contract for email services</Description>
 	  <LangVersion>latest</LangVersion>
+	  <Nullable>enable</Nullable>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 

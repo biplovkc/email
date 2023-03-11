@@ -1,5 +1,9 @@
-﻿using System.Net.Mail;
+﻿using System;
+using System.Collections.Generic;
+using System.Net.Mail;
 using System.Security.Authentication;
+using System.Threading;
+using System.Threading.Tasks;
 using OneOf;
 using OneOf.Types;
 
